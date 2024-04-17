@@ -1,7 +1,8 @@
 from .database import Base
-from sqlalchemy import Column, Integer, String, DateTime, ForeignKey
+from sqlalchemy import Column, Integer, String, DateTime, ForeignKey, Float, Date
 from sqlalchemy.orm import relationship
 
+ # CLIENT
 class DbClient(Base):
     __tablename__ = 'client'
     id = Column(Integer, primary_key=True, index=True)
@@ -10,6 +11,8 @@ class DbClient(Base):
     cat_cli = relationship('DbCatCli', back_populates='client')
     account = relationship('DbAccount', back_populates='client', cascade='all, delete')
 
+
+# ACCOUNT
 class DbAccount(Base):
     __tablename__ = 'account'
     id = Column(Integer, primary_key=True, index=True)
@@ -17,6 +20,8 @@ class DbAccount(Base):
 
     client = relationship('DbClient', back_populates='account')
 
+
+# CATEGORY
 class DbCategory(Base):
     __tablename__ = 'category'
     id = Column(Integer, primary_key=True, index=True)
@@ -24,6 +29,8 @@ class DbCategory(Base):
 
     cat_cli = relationship('DbCatCli', back_populates='category')
 
+
+# CATEGORY CLIENT
 class DbCatCli(Base):
     __tablename__ = 'category_client'
     id = Column(Integer, primary_key=True, index=True)
@@ -32,3 +39,4 @@ class DbCatCli(Base):
 
     category = relationship('DbCategory', back_populates='cat_cli')
     client = relationship('DbClient', back_populates='cat_cli')
+
