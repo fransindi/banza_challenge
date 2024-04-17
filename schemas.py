@@ -47,3 +47,10 @@ class MovementBase(BaseModel):
     account_id: int
     transaction_type: str
     amount: float
+
+class MovementDisplay(BaseModel):
+    id: int
+    account_id: int
+    transaction_type: str
+    amount: float
+    date: date
