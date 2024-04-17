@@ -19,7 +19,7 @@ class DbAccount(Base):
     client_id = Column(Integer, ForeignKey('client.id'))
 
     client = relationship('DbClient', back_populates='account')
-
+    movement = relationship('DbMovement', back_populates='account')
 
 # CATEGORY
 class DbCategory(Base):
@@ -40,3 +40,13 @@ class DbCatCli(Base):
     category = relationship('DbCategory', back_populates='cat_cli')
     client = relationship('DbClient', back_populates='cat_cli')
 
+# MOVEMENT
+class DbMovement(Base):
+    __tablename__ = 'movement'
+    id = Column(Integer, primary_key=True, index=True)
+    account_id = Column(Integer, ForeignKey('account.id'))
+    transaction_type = Column(String)
+    amount = Column(Float)
+    date = Column(Date)
+
+    account = relationship('DbAccount', back_populates='movement')

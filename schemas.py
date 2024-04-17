@@ -36,10 +36,14 @@ class AccountDisplay(BaseModel):
     id: int
     client_id: int 
 
-
-
 # GET CLIENT
 class GetClient(BaseModel):
     client: ClientDisplay
     account: AccountDisplay
     category: CategoryDisplay
+
+# MOVEMENT
+class MovementBase(BaseModel):
+    account_id: int
+    transaction_type: str
+    amount: float
