@@ -67,7 +67,7 @@ def post_cat_cli(db: Session, request: CatCliBase):
     if request.category_id > 3 or request.category_id < 1:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail='Category id Not Found, try between 1 and 3')
     
-    list_clients = get_client(db, request.client_id)
+    list_clients = db.query(DbCatCli).filter(DbCatCli.client_id == request.client_id).first()
     if list_clients:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail='Client already exist')     
 

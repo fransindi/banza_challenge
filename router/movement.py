@@ -11,7 +11,7 @@ router = APIRouter(
     tags=['movement']
 )
 
-@router.post('/', response_model=MovementDisplay)
+@router.post('/')#, response_model=MovementDisplay)
 def post_movement(request: MovementBase, db: Session = Depends(get_db)):
     return db_movement.post_movement(db, request)
 
@@ -23,6 +23,11 @@ def delete_movement(id: int, db: Session = Depends(get_db)):
 def get_movement(id: int, db: Session = Depends(get_db)):
     return db_movement.get_movement_ep(db, id)
 
-@router.get('/nidea/')
+@router.get('/get_dolar_bolsa/')
 def get_dolar():
-    return db_movement.get_valor_dolar()
+    return db_movement.get_dolar_price()
+
+
+@router.get('/total_usd/{account_id}')
+def get_movement_by_account(account_id: int, db: Session = Depends(get_db)):
+    return db_movement.get_total_usd(db, account_id)

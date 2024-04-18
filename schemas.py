@@ -54,3 +54,4 @@ class MovementDisplay(BaseModel):
     transaction_type: str
     amount: float
     date: date
+
