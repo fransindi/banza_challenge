@@ -1,1 +1,5 @@
-Get All Clients: Client Retrieved, 
+Get Total USD: USD Retrieved
+Get Total ARS: ARS Retrieved
+Get Dolar Price: Dolar Price Retrieved
+Get Total USD: USD Retrieved
+Get All Clients: Client Retrieved

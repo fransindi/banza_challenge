@@ -20,7 +20,7 @@ def post_movement(db: Session, request: MovementBase):
     ingreso_egreso = ['ingreso', 'egreso']
     if request.transaction_type not in ingreso_egreso:
         log('Post Movement', 'Error, Not a valid transaction type')
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail='Not a valid transaction type, try with Ingreso or Egreso')
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail='Not a valid transaction type, try with ingreso or egreso')
     
     account = db.query(DbAccount).filter(DbAccount.id == request.account_id).first()
 
@@ -32,11 +32,12 @@ def post_movement(db: Session, request: MovementBase):
         log('Post Movement', 'Error, amount less than 0')
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail='Invalid Input less than 0')
     
-    ars = get_total_pesos(db, account.id)
-    check_ars = ars - request.amount
-    if check_ars < 0:
-        log('Post Movement', 'Error, Cant witdraw more than your funds')
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail='You dont have enough funds')
+    if request.transaction_type == 'egreso':
+        ars = get_total_ars(db, account.id)
+        check_ars = ars - request.amount
+        if check_ars < 0:
+            log('Post Movement', 'Error, Cant witdraw more than your funds')
+            raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail='You dont have enough funds')
 
     new_movement = DbMovement(
         account_id = request.account_id,
@@ -56,7 +57,7 @@ def post_movement(db: Session, request: MovementBase):
 # DELETE_MOVEMENT
 def delete_movement(db: Session, id: int):
     movement = get_movement(db, id)
-    if not movement:
+    if movement:
         db.delete(movement)
         db.commit()
         log('Delete Movement', 'Movement deleted.')
@@ -82,7 +83,7 @@ def get_dolar_price():
     if data.status_code == 200:
         data = data.json()
         log('Get Dolar Price', 'Dolar Price Retrieved')
-        return data['compra']
+        return data['venta']
     else:
         log('Get Dolar Price', 'Error, no response from API')
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail='No response from api')

@@ -42,9 +42,9 @@ def get_all_clients(db: Session = Depends(get_db)):
 def delete_client(id: int, db: Session = Depends(get_db)):
     return db_client.delete_client(db, id)
 
-#@router.post('/category')
-#def create_category(name: str, db: Session = Depends(get_db)):
-#    return db_client.create_category(db, name)
+@router.post('/category')
+def create_category(name: str, db: Session = Depends(get_db)):
+    return db_client.create_category(db, name)
 
 
 # POST CATEGORY CLIENT

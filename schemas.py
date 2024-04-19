@@ -45,7 +45,7 @@ class GetClient(BaseModel):
 # MOVEMENT
 class MovementBase(BaseModel):
     account_id: int
-    transaction_type: str
+    transaction_type: str = 'ingreso'
     amount: float
 
 class MovementDisplay(BaseModel):
