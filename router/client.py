@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, HTTPException
 from schemas import ClientBase, ClientDisplay, CatCliBase, CatCliDisplay, GetClient
 from db.database import get_db
 from sqlalchemy.orm import Session

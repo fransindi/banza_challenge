@@ -20,7 +20,7 @@ router = APIRouter(
 def post_movement(request: MovementBase, db: Session = Depends(get_db)):
     return db_movement.post_movement(db, request)
 
-@router.delete('/',
+@router.delete('/{id}',
                 summary='Delete a movement.',
                 description='This endpoint look for a movement id and drop it from the table.',
                 response_description='String with a text of confirmation in case is deleted or error in case dosent exist.'

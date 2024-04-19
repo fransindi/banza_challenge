@@ -3,3 +3,430 @@ Get Total ARS: ARS Retrieved
 Get Dolar Price: Dolar Price Retrieved
 Get Total USD: USD Retrieved
 Get All Clients: Client Retrieved
+Get All Clients: Client Retrieved
+Get All Clients: Client Retrieved
+Get All Clients: Client Retrieved
+Get All Clients: Client Retrieved
+Get All Clients: Client Retrieved
+Get All Clients: Client Retrieved
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Post Client: Client Created
+Post Client: Error, client already exists
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Client: Client Created
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get All Clients: Client Retrieved
+Get All Clients: Client Retrieved
+Get All Clients: Client Retrieved
+Get All Clients: Client Retrieved
+Get All Clients: Client Retrieved
+Get All Clients: Client Retrieved
+Get All Clients: Client Retrieved
+Get All Clients: Client Retrieved
+Get All Clients: Client Retrieved
+Post Client: Error, client already exists
+Get All Clients: Client Retrieved
+Post Client: Error, client already exists
+Get All Clients: Client Retrieved
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Post Client: Error, client already exists
+Post Client: Error, client already exists
+Get All Clients: Client Retrieved
+Post Client: Error, client already exists
+Post Client: Error, client already exists
+Get All Clients: Client Retrieved
+Post Client: Error, client already exists
+Get All Clients: Client Retrieved
+Post Client: Error, client already exists
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Post Client: Error, client already exists
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Post Client: Error, client already exists
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Post Client: Error, client already exists
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Category assigned correctly
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Category assigned correctly
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Category Client: Category assigned correctly
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Movement: Error, Not a valid transaction type
+Post Movement: Error, Inexistent account
+Post Movement: Error, amount less than 0
+Post Movement: Movement created.
+Get Movement: Movement not found
+Get Movement: Movement retrieved
+Delete Movement: Movement deleted.
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Movement: Error, Not a valid transaction type
+Post Movement: Error, Inexistent account
+Post Movement: Error, amount less than 0
+Post Movement: Movement created.
+Get Movement: Movement not found
+Get Movement: Movement retrieved
+Delete Movement: Movement deleted.
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Movement: Error, Not a valid transaction type
+Post Movement: Error, Inexistent account
+Post Movement: Error, amount less than 0
+Post Movement: Movement created.
+Get Movement: Movement not found
+Get Movement: Movement retrieved
+Delete Movement: Movement deleted.
+Get Movement: Movement not found
+Get Movement: Movement retrieved
+Get Movement: Movement retrieved.
+Get Dolar Price: Dolar Price Retrieved
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Movement: Error, Not a valid transaction type
+Post Movement: Error, Inexistent account
+Post Movement: Error, amount less than 0
+Post Movement: Movement created.
+Get Movement: Movement not found
+Get Movement: Movement retrieved
+Delete Movement: Movement deleted.
+Get Movement: Movement not found
+Get Movement: Movement retrieved
+Get Movement: Movement retrieved.
+Get Dolar Price: Dolar Price Retrieved
+Get Movement: Movement retrieved
+Get Movement: Movement retrieved.
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Movement: Error, Not a valid transaction type
+Post Movement: Error, Inexistent account
+Post Movement: Error, amount less than 0
+Post Movement: Movement created.
+Get Movement: Movement not found
+Get Movement: Movement retrieved
+Delete Movement: Movement deleted.
+Get Movement: Movement not found
+Get Movement: Movement retrieved
+Get Movement: Movement retrieved.
+Get Dolar Price: Dolar Price Retrieved
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Movement: Error, Not a valid transaction type
+Post Movement: Error, Inexistent account
+Post Movement: Error, amount less than 0
+Post Movement: Movement created.
+Get Movement: Movement not found
+Get Movement: Movement retrieved
+Delete Movement: Movement deleted.
+Get Movement: Movement not found
+Get Movement: Movement retrieved
+Get Movement: Movement retrieved.
+Get Dolar Price: Dolar Price Retrieved
+Get Total ARS: ARS Retrieved
+Get Dolar Price: Dolar Price Retrieved
+Get Total USD: USD Retrieved
+Post Client: Error, client already exists
+Post Client: Client Created
+Get All Clients: Client Retrieved
+Get Client: Client Retrieved
+Get Full Client: Client Retrieved.
+Get Client: Error Client id {id} not found
+Get Client: Client Retrieved
+Delete Client: Client Deleted.
+Get Client: Error Client id {id} not found
+Post Category Client: Category not found.
+Post Category Client: Category not found.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Category Client: Client Already Exist.
+Post Movement: Error, Not a valid transaction type
+Post Movement: Error, Inexistent account
+Post Movement: Error, amount less than 0
+Post Movement: Movement created.
+Get Movement: Movement not found
+Get Movement: Movement retrieved
+Delete Movement: Movement deleted.
+Get Movement: Movement not found
+Get Movement: Movement retrieved
+Get Movement: Movement retrieved.
+Get Dolar Price: Dolar Price Retrieved
+Get Total ARS: Inexistent Account
+Get Total ARS: ARS Retrieved
+Get Dolar Price: Dolar Price Retrieved
+Get Total USD: USD Retrieved

@@ -19,6 +19,8 @@ def get_client_by_name(db: Session, name: str):
 
 # POST CLIENT
 def post_client(db: Session, request: ClientBase):
+    if request.name == '':
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail='You must insert a name')
     client = get_client_by_name(db, request.name)
     if not client:
         new_client = DbClient(

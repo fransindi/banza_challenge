@@ -6,7 +6,7 @@ from sqlalchemy.orm import relationship
 class DbClient(Base):
     __tablename__ = 'client'
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String)
+    name = Column(String, unique=True, nullable=False)
 
     cat_cli = relationship('DbCatCli', back_populates='client')
     account = relationship('DbAccount', back_populates='client', cascade='all, delete')
@@ -50,3 +50,5 @@ class DbMovement(Base):
     date = Column(Date)
 
     account = relationship('DbAccount', back_populates='movement')
+
+    
